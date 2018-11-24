@@ -1,3 +1,10 @@
+---
+post_title: Test post
+layout: post
+published: true
+---
+
+
 # The sample post goes here.
 
 Text goes here
