@@ -1,6 +1,7 @@
 ---
 post_title: Initial Testing
-layout: post
+title: Initial Testing
+layout: the_mag
 published: true
 ---
 
