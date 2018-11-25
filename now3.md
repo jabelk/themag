@@ -1,17 +1,19 @@
 ---
 
-ID: "1110"
+ID: 1110
 
-post_title: "new post1"
+post_title: 'new post2'
 
-layout: "post"
+layout: 'post'
 
-published: "true"
+published: True
 
 ---
 
 now
+
 aaabbbcc11012222
+
 Text goes here
 
 10
