@@ -1,10 +1,12 @@
 ---
+ID: 103
 post_title: 'new post'
 layout: post
 published: true
 ---
 
-aaaaaa
+1101222
+aasdf2
 Text goes here
 
 10
