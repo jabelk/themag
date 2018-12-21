@@ -19,12 +19,12 @@ There are many more features and capabilities in Napalm-yang, but this post is f
 So what would this look like in a simple example? Let's assume you have the following snippet of EOS interface configuration (napalm-yang supports translating configuration from major vendors such as Cisco, Juniper, Arista):
 
 ```
-interface et1
+interface Ethernet1
     ip address 192.168.1.1/24
     description Uplink1
     mtu 9000
     exit
-interface et2
+interface Ethernet2
     ip address 192.168.2.1/24
     description Uplink2
     mtu 9000
@@ -36,7 +36,7 @@ Now napalm-yang will use an open source and extensible parsing engine to convert
 ---
 interfaces:
   interface:
-    et1:
+    Ethernet1:
       config:
         description: Uplink1
         mtu: 9000
@@ -50,7 +50,7 @@ interfaces:
                   ip: 192.168.1.1
                   prefix-length: 24
                 ip: 192.168.1.1
-    et2:
+    Ethernet2:
       config:
         description: Uplink2
         mtu: 9000
